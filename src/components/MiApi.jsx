@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import Characters from "./Characters";
 
 const baseUrl = "https://hp-api.herokuapp.com/api/characters";
 
@@ -27,6 +28,12 @@ const MiApi = () => {
     fetchCaract();
   }, []);
 
-  
+  return (
+    <>
+      <div className="container">
+      <Characters characters={name} />
+      </div>
+    </>
+  );
 };
 export default MiApi;
