@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
-import Characters from "./Characters";
+import Search from "../components/Search";
+import Characters from "../components/Characters";
 
 const baseUrl = "https://hp-api.herokuapp.com/api/characters";
 
@@ -31,7 +32,11 @@ const MiApi = () => {
   return (
     <>
       <div className="container">
+      <Search characters={name} />
       <Characters characters={name} />
+        
+
+    
       </div>
     </>
   );

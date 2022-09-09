@@ -1,13 +1,31 @@
+.card,
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Abel", sons-serif;
+  background-image: url(https://pa1.narvii.com/6689/59fe9b091dbf11c47385e4cdabd6d3ee4709c7d4_hq.gif);
+}
+img {
+  height: 30rem;
+}
+.card {
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+input {
+  height: 2rem;
+  font-size: 20px;
 }
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+}
+
+.row {
+  margin-bottom: 100px;
+}
+
