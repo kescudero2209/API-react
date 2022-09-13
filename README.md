@@ -1,3 +1,6 @@
+LINK DEL VÍDEO: https://www.youtube.com/watch?v=XppXQTh1p9k&t=2s
+LINK DE LA PÁGINA: https://kescudero2209.github.io/API-react/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
